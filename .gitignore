@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+~$*
+*.log
+docx_render/
+table_images/
+
+# Raw/local data should not be committed.
+data/
+raw_data/
+*.dta
+*.sav
+*.rar
+

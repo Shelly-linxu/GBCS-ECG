@@ -1,0 +1,175 @@
+feature,clear_variable,variable_label,source_system,unit,lead,category
+ge_hr_bpm,ge_hr_bpm,GE ECG Heart rate,GE2014,bpm,,global
+ge_qrs_dur_ms,ge_qrs_dur_ms,GE ECG QRS duration,GE2014,ms,,global
+ge_qt_ms,ge_qt_ms,GE ECG QT interval,GE2014,ms,,global
+ge_qtc_ms,ge_qtc_ms,GE ECG QTc interval,GE2014,ms,,global
+ge_pq_ms,ge_pq_ms,GE ECG PQ/PR interval,GE2014,ms,,global
+ge_p_dur_ms,ge_p_dur_ms,GE ECG P-wave duration,GE2014,ms,,global
+ge_rr_ms,ge_rr_ms,GE ECG RR interval,GE2014,ms,,global
+ge_pp_ms,ge_pp_ms,GE ECG PP interval,GE2014,ms,,global
+ge_cb_count,ge_cb_count,GE ECG Cardiac beat count,GE2014,count,,global
+ge_p_axis_deg,ge_p_axis_deg,GE ECG P-wave axis,GE2014,degrees,,global
+ge_qrs_axis_deg,ge_qrs_axis_deg,GE ECG QRS axis,GE2014,degrees,,global
+ge_t_axis_deg,ge_t_axis_deg,GE ECG T-wave axis,GE2014,degrees,,global
+ge_p_onset_ms,ge_p_onset_ms,GE ECG P-wave onset,GE2014,ms,,global
+ge_p_offset_ms,ge_p_offset_ms,GE ECG P-wave offset,GE2014,ms,,global
+ge_qrs_onset_ms,ge_qrs_onset_ms,GE ECG QRS onset,GE2014,ms,,global
+ge_qrs_offset_ms,ge_qrs_offset_ms,GE ECG QRS offset,GE2014,ms,,global
+ge_t_offset_ms,ge_t_offset_ms,GE ECG T-wave offset,GE2014,ms,,global
+ge_lead_i_q_ms,ge_lead_i_q_ms,GE ECG Lead I Q-wave duration,GE2014,ms,I,lead_measurement
+ge_lead_i_r_ms,ge_lead_i_r_ms,GE ECG Lead I R-wave duration,GE2014,ms,I,lead_measurement
+ge_lead_i_s_ms,ge_lead_i_s_ms,GE ECG Lead I S-wave duration,GE2014,ms,I,lead_measurement
+ge_lead_i_p_uv,ge_lead_i_p_uv,GE ECG Lead I P-wave amplitude,GE2014,uV,I,lead_measurement
+ge_lead_i_q_uv,ge_lead_i_q_uv,GE ECG Lead I Q-wave amplitude,GE2014,uV,I,lead_measurement
+ge_lead_i_r_uv,ge_lead_i_r_uv,GE ECG Lead I R-wave amplitude,GE2014,uV,I,lead_measurement
+ge_lead_i_s_uv,ge_lead_i_s_uv,GE ECG Lead I S-wave amplitude,GE2014,uV,I,lead_measurement
+ge_lead_i_j_uv,ge_lead_i_j_uv,GE ECG Lead I J-point amplitude,GE2014,uV,I,lead_measurement
+ge_lead_i_st_uv,ge_lead_i_st_uv,GE ECG Lead I ST amplitude,GE2014,uV,I,lead_measurement
+ge_lead_i_t_uv,ge_lead_i_t_uv,GE ECG Lead I T-wave amplitude,GE2014,uV,I,lead_measurement
+ge_lead_i_ste_uv,ge_lead_i_ste_uv,GE ECG Lead I ST elevation,GE2014,uV,I,lead_measurement
+ge_lead_i_tprime_uv,ge_lead_i_tprime_uv,GE ECG Lead I T-prime wave amplitude,GE2014,uV,I,lead_measurement
+ge_lead_ii_q_ms,ge_lead_ii_q_ms,GE ECG Lead II Q-wave duration,GE2014,ms,II,lead_measurement
+ge_lead_ii_r_ms,ge_lead_ii_r_ms,GE ECG Lead II R-wave duration,GE2014,ms,II,lead_measurement
+ge_lead_ii_s_ms,ge_lead_ii_s_ms,GE ECG Lead II S-wave duration,GE2014,ms,II,lead_measurement
+ge_lead_ii_p_uv,ge_lead_ii_p_uv,GE ECG Lead II P-wave amplitude,GE2014,uV,II,lead_measurement
+ge_lead_ii_q_uv,ge_lead_ii_q_uv,GE ECG Lead II Q-wave amplitude,GE2014,uV,II,lead_measurement
+ge_lead_ii_r_uv,ge_lead_ii_r_uv,GE ECG Lead II R-wave amplitude,GE2014,uV,II,lead_measurement
+ge_lead_ii_s_uv,ge_lead_ii_s_uv,GE ECG Lead II S-wave amplitude,GE2014,uV,II,lead_measurement
+ge_lead_ii_rp_uv,ge_lead_ii_rp_uv,GE ECG Lead II R-prime wave amplitude,GE2014,uV,II,lead_measurement
+ge_lead_ii_j_uv,ge_lead_ii_j_uv,GE ECG Lead II J-point amplitude,GE2014,uV,II,lead_measurement
+ge_lead_ii_st_uv,ge_lead_ii_st_uv,GE ECG Lead II ST amplitude,GE2014,uV,II,lead_measurement
+ge_lead_ii_t_uv,ge_lead_ii_t_uv,GE ECG Lead II T-wave amplitude,GE2014,uV,II,lead_measurement
+ge_lead_ii_rp2_ms,ge_lead_ii_rp2_ms,GE ECG Lead II R-prime duration,GE2014,ms,II,lead_measurement
+ge_lead_ii_ste_uv,ge_lead_ii_ste_uv,GE ECG Lead II ST elevation,GE2014,uV,II,lead_measurement
+ge_lead_ii_tprime_uv,ge_lead_ii_tprime_uv,GE ECG Lead II T-prime wave amplitude,GE2014,uV,II,lead_measurement
+ge_lead_iii_q_ms,ge_lead_iii_q_ms,GE ECG Lead III Q-wave duration,GE2014,ms,III,lead_measurement
+ge_lead_iii_r_ms,ge_lead_iii_r_ms,GE ECG Lead III R-wave duration,GE2014,ms,III,lead_measurement
+ge_lead_iii_s_ms,ge_lead_iii_s_ms,GE ECG Lead III S-wave duration,GE2014,ms,III,lead_measurement
+ge_lead_iii_p_uv,ge_lead_iii_p_uv,GE ECG Lead III P-wave amplitude,GE2014,uV,III,lead_measurement
+ge_lead_iii_q_uv,ge_lead_iii_q_uv,GE ECG Lead III Q-wave amplitude,GE2014,uV,III,lead_measurement
+ge_lead_iii_r_uv,ge_lead_iii_r_uv,GE ECG Lead III R-wave amplitude,GE2014,uV,III,lead_measurement
+ge_lead_iii_s_uv,ge_lead_iii_s_uv,GE ECG Lead III S-wave amplitude,GE2014,uV,III,lead_measurement
+ge_lead_iii_rp_uv,ge_lead_iii_rp_uv,GE ECG Lead III R-prime wave amplitude,GE2014,uV,III,lead_measurement
+ge_lead_iii_sp_uv,ge_lead_iii_sp_uv,GE ECG Lead III S-prime wave amplitude,GE2014,uV,III,lead_measurement
+ge_lead_iii_j_uv,ge_lead_iii_j_uv,GE ECG Lead III J-point amplitude,GE2014,uV,III,lead_measurement
+ge_lead_iii_st_uv,ge_lead_iii_st_uv,GE ECG Lead III ST amplitude,GE2014,uV,III,lead_measurement
+ge_lead_iii_t_uv,ge_lead_iii_t_uv,GE ECG Lead III T-wave amplitude,GE2014,uV,III,lead_measurement
+ge_lead_iii_rp2_ms,ge_lead_iii_rp2_ms,GE ECG Lead III R-prime duration,GE2014,ms,III,lead_measurement
+ge_lead_iii_pprime_uv,ge_lead_iii_pprime_uv,GE ECG Lead III P-prime wave amplitude,GE2014,uV,III,lead_measurement
+ge_lead_iii_ste_uv,ge_lead_iii_ste_uv,GE ECG Lead III ST elevation,GE2014,uV,III,lead_measurement
+ge_lead_iii_tprime_uv,ge_lead_iii_tprime_uv,GE ECG Lead III T-prime wave amplitude,GE2014,uV,III,lead_measurement
+ge_lead_avr_q_ms,ge_lead_avr_q_ms,GE ECG Lead aVR Q-wave duration,GE2014,ms,aVR,lead_measurement
+ge_lead_avr_r_ms,ge_lead_avr_r_ms,GE ECG Lead aVR R-wave duration,GE2014,ms,aVR,lead_measurement
+ge_lead_avr_s_ms,ge_lead_avr_s_ms,GE ECG Lead aVR S-wave duration,GE2014,ms,aVR,lead_measurement
+ge_lead_avr_p_uv,ge_lead_avr_p_uv,GE ECG Lead aVR P-wave amplitude,GE2014,uV,aVR,lead_measurement
+ge_lead_avr_q_uv,ge_lead_avr_q_uv,GE ECG Lead aVR Q-wave amplitude,GE2014,uV,aVR,lead_measurement
+ge_lead_avr_r_uv,ge_lead_avr_r_uv,GE ECG Lead aVR R-wave amplitude,GE2014,uV,aVR,lead_measurement
+ge_lead_avr_s_uv,ge_lead_avr_s_uv,GE ECG Lead aVR S-wave amplitude,GE2014,uV,aVR,lead_measurement
+ge_lead_avr_rp_uv,ge_lead_avr_rp_uv,GE ECG Lead aVR R-prime wave amplitude,GE2014,uV,aVR,lead_measurement
+ge_lead_avr_j_uv,ge_lead_avr_j_uv,GE ECG Lead aVR J-point amplitude,GE2014,uV,aVR,lead_measurement
+ge_lead_avr_st_uv,ge_lead_avr_st_uv,GE ECG Lead aVR ST amplitude,GE2014,uV,aVR,lead_measurement
+ge_lead_avr_t_uv,ge_lead_avr_t_uv,GE ECG Lead aVR T-wave amplitude,GE2014,uV,aVR,lead_measurement
+ge_lead_avr_rp2_ms,ge_lead_avr_rp2_ms,GE ECG Lead aVR R-prime duration,GE2014,ms,aVR,lead_measurement
+ge_lead_avr_ste_uv,ge_lead_avr_ste_uv,GE ECG Lead aVR ST elevation,GE2014,uV,aVR,lead_measurement
+ge_lead_avl_q_ms,ge_lead_avl_q_ms,GE ECG Lead aVL Q-wave duration,GE2014,ms,aVL,lead_measurement
+ge_lead_avl_r_ms,ge_lead_avl_r_ms,GE ECG Lead aVL R-wave duration,GE2014,ms,aVL,lead_measurement
+ge_lead_avl_s_ms,ge_lead_avl_s_ms,GE ECG Lead aVL S-wave duration,GE2014,ms,aVL,lead_measurement
+ge_lead_avl_p_uv,ge_lead_avl_p_uv,GE ECG Lead aVL P-wave amplitude,GE2014,uV,aVL,lead_measurement
+ge_lead_avl_q_uv,ge_lead_avl_q_uv,GE ECG Lead aVL Q-wave amplitude,GE2014,uV,aVL,lead_measurement
+ge_lead_avl_r_uv,ge_lead_avl_r_uv,GE ECG Lead aVL R-wave amplitude,GE2014,uV,aVL,lead_measurement
+ge_lead_avl_s_uv,ge_lead_avl_s_uv,GE ECG Lead aVL S-wave amplitude,GE2014,uV,aVL,lead_measurement
+ge_lead_avl_rp_uv,ge_lead_avl_rp_uv,GE ECG Lead aVL R-prime wave amplitude,GE2014,uV,aVL,lead_measurement
+ge_lead_avl_j_uv,ge_lead_avl_j_uv,GE ECG Lead aVL J-point amplitude,GE2014,uV,aVL,lead_measurement
+ge_lead_avl_st_uv,ge_lead_avl_st_uv,GE ECG Lead aVL ST amplitude,GE2014,uV,aVL,lead_measurement
+ge_lead_avl_t_uv,ge_lead_avl_t_uv,GE ECG Lead aVL T-wave amplitude,GE2014,uV,aVL,lead_measurement
+ge_lead_avl_rp2_ms,ge_lead_avl_rp2_ms,GE ECG Lead aVL R-prime duration,GE2014,ms,aVL,lead_measurement
+ge_lead_avl_pprime_uv,ge_lead_avl_pprime_uv,GE ECG Lead aVL P-prime wave amplitude,GE2014,uV,aVL,lead_measurement
+ge_lead_avl_ste_uv,ge_lead_avl_ste_uv,GE ECG Lead aVL ST elevation,GE2014,uV,aVL,lead_measurement
+ge_lead_avl_tprime_uv,ge_lead_avl_tprime_uv,GE ECG Lead aVL T-prime wave amplitude,GE2014,uV,aVL,lead_measurement
+ge_lead_avf_q_ms,ge_lead_avf_q_ms,GE ECG Lead aVF Q-wave duration,GE2014,ms,aVF,lead_measurement
+ge_lead_avf_r_ms,ge_lead_avf_r_ms,GE ECG Lead aVF R-wave duration,GE2014,ms,aVF,lead_measurement
+ge_lead_avf_s_ms,ge_lead_avf_s_ms,GE ECG Lead aVF S-wave duration,GE2014,ms,aVF,lead_measurement
+ge_lead_avf_p_uv,ge_lead_avf_p_uv,GE ECG Lead aVF P-wave amplitude,GE2014,uV,aVF,lead_measurement
+ge_lead_avf_q_uv,ge_lead_avf_q_uv,GE ECG Lead aVF Q-wave amplitude,GE2014,uV,aVF,lead_measurement
+ge_lead_avf_r_uv,ge_lead_avf_r_uv,GE ECG Lead aVF R-wave amplitude,GE2014,uV,aVF,lead_measurement
+ge_lead_avf_s_uv,ge_lead_avf_s_uv,GE ECG Lead aVF S-wave amplitude,GE2014,uV,aVF,lead_measurement
+ge_lead_avf_rp_uv,ge_lead_avf_rp_uv,GE ECG Lead aVF R-prime wave amplitude,GE2014,uV,aVF,lead_measurement
+ge_lead_avf_j_uv,ge_lead_avf_j_uv,GE ECG Lead aVF J-point amplitude,GE2014,uV,aVF,lead_measurement
+ge_lead_avf_st_uv,ge_lead_avf_st_uv,GE ECG Lead aVF ST amplitude,GE2014,uV,aVF,lead_measurement
+ge_lead_avf_t_uv,ge_lead_avf_t_uv,GE ECG Lead aVF T-wave amplitude,GE2014,uV,aVF,lead_measurement
+ge_lead_avf_rp2_ms,ge_lead_avf_rp2_ms,GE ECG Lead aVF R-prime duration,GE2014,ms,aVF,lead_measurement
+ge_lead_avf_pprime_uv,ge_lead_avf_pprime_uv,GE ECG Lead aVF P-prime wave amplitude,GE2014,uV,aVF,lead_measurement
+ge_lead_avf_ste_uv,ge_lead_avf_ste_uv,GE ECG Lead aVF ST elevation,GE2014,uV,aVF,lead_measurement
+ge_lead_avf_tprime_uv,ge_lead_avf_tprime_uv,GE ECG Lead aVF T-prime wave amplitude,GE2014,uV,aVF,lead_measurement
+ge_lead_v1_q_ms,ge_lead_v1_q_ms,GE ECG Lead V1 Q-wave duration,GE2014,ms,V1,lead_measurement
+ge_lead_v1_r_ms,ge_lead_v1_r_ms,GE ECG Lead V1 R-wave duration,GE2014,ms,V1,lead_measurement
+ge_lead_v1_s_ms,ge_lead_v1_s_ms,GE ECG Lead V1 S-wave duration,GE2014,ms,V1,lead_measurement
+ge_lead_v1_p_uv,ge_lead_v1_p_uv,GE ECG Lead V1 P-wave amplitude,GE2014,uV,V1,lead_measurement
+ge_lead_v1_q_uv,ge_lead_v1_q_uv,GE ECG Lead V1 Q-wave amplitude,GE2014,uV,V1,lead_measurement
+ge_lead_v1_r_uv,ge_lead_v1_r_uv,GE ECG Lead V1 R-wave amplitude,GE2014,uV,V1,lead_measurement
+ge_lead_v1_s_uv,ge_lead_v1_s_uv,GE ECG Lead V1 S-wave amplitude,GE2014,uV,V1,lead_measurement
+ge_lead_v1_rp_uv,ge_lead_v1_rp_uv,GE ECG Lead V1 R-prime wave amplitude,GE2014,uV,V1,lead_measurement
+ge_lead_v1_j_uv,ge_lead_v1_j_uv,GE ECG Lead V1 J-point amplitude,GE2014,uV,V1,lead_measurement
+ge_lead_v1_st_uv,ge_lead_v1_st_uv,GE ECG Lead V1 ST amplitude,GE2014,uV,V1,lead_measurement
+ge_lead_v1_t_uv,ge_lead_v1_t_uv,GE ECG Lead V1 T-wave amplitude,GE2014,uV,V1,lead_measurement
+ge_lead_v1_rp2_ms,ge_lead_v1_rp2_ms,GE ECG Lead V1 R-prime duration,GE2014,ms,V1,lead_measurement
+ge_lead_v1_pprime_uv,ge_lead_v1_pprime_uv,GE ECG Lead V1 P-prime wave amplitude,GE2014,uV,V1,lead_measurement
+ge_lead_v1_ste_uv,ge_lead_v1_ste_uv,GE ECG Lead V1 ST elevation,GE2014,uV,V1,lead_measurement
+ge_lead_v1_tprime_uv,ge_lead_v1_tprime_uv,GE ECG Lead V1 T-prime wave amplitude,GE2014,uV,V1,lead_measurement
+ge_lead_v2_r_ms,ge_lead_v2_r_ms,GE ECG Lead V2 R-wave duration,GE2014,ms,V2,lead_measurement
+ge_lead_v2_s_ms,ge_lead_v2_s_ms,GE ECG Lead V2 S-wave duration,GE2014,ms,V2,lead_measurement
+ge_lead_v2_p_uv,ge_lead_v2_p_uv,GE ECG Lead V2 P-wave amplitude,GE2014,uV,V2,lead_measurement
+ge_lead_v2_r_uv,ge_lead_v2_r_uv,GE ECG Lead V2 R-wave amplitude,GE2014,uV,V2,lead_measurement
+ge_lead_v2_s_uv,ge_lead_v2_s_uv,GE ECG Lead V2 S-wave amplitude,GE2014,uV,V2,lead_measurement
+ge_lead_v2_j_uv,ge_lead_v2_j_uv,GE ECG Lead V2 J-point amplitude,GE2014,uV,V2,lead_measurement
+ge_lead_v2_st_uv,ge_lead_v2_st_uv,GE ECG Lead V2 ST amplitude,GE2014,uV,V2,lead_measurement
+ge_lead_v2_t_uv,ge_lead_v2_t_uv,GE ECG Lead V2 T-wave amplitude,GE2014,uV,V2,lead_measurement
+ge_lead_v2_pprime_uv,ge_lead_v2_pprime_uv,GE ECG Lead V2 P-prime wave amplitude,GE2014,uV,V2,lead_measurement
+ge_lead_v2_ste_uv,ge_lead_v2_ste_uv,GE ECG Lead V2 ST elevation,GE2014,uV,V2,lead_measurement
+ge_lead_v2_tprime_uv,ge_lead_v2_tprime_uv,GE ECG Lead V2 T-prime wave amplitude,GE2014,uV,V2,lead_measurement
+ge_lead_v3_r_ms,ge_lead_v3_r_ms,GE ECG Lead V3 R-wave duration,GE2014,ms,V3,lead_measurement
+ge_lead_v3_s_ms,ge_lead_v3_s_ms,GE ECG Lead V3 S-wave duration,GE2014,ms,V3,lead_measurement
+ge_lead_v3_p_uv,ge_lead_v3_p_uv,GE ECG Lead V3 P-wave amplitude,GE2014,uV,V3,lead_measurement
+ge_lead_v3_r_uv,ge_lead_v3_r_uv,GE ECG Lead V3 R-wave amplitude,GE2014,uV,V3,lead_measurement
+ge_lead_v3_s_uv,ge_lead_v3_s_uv,GE ECG Lead V3 S-wave amplitude,GE2014,uV,V3,lead_measurement
+ge_lead_v3_j_uv,ge_lead_v3_j_uv,GE ECG Lead V3 J-point amplitude,GE2014,uV,V3,lead_measurement
+ge_lead_v3_st_uv,ge_lead_v3_st_uv,GE ECG Lead V3 ST amplitude,GE2014,uV,V3,lead_measurement
+ge_lead_v3_t_uv,ge_lead_v3_t_uv,GE ECG Lead V3 T-wave amplitude,GE2014,uV,V3,lead_measurement
+ge_lead_v3_ste_uv,ge_lead_v3_ste_uv,GE ECG Lead V3 ST elevation,GE2014,uV,V3,lead_measurement
+ge_lead_v3_tprime_uv,ge_lead_v3_tprime_uv,GE ECG Lead V3 T-prime wave amplitude,GE2014,uV,V3,lead_measurement
+ge_lead_v4_q_ms,ge_lead_v4_q_ms,GE ECG Lead V4 Q-wave duration,GE2014,ms,V4,lead_measurement
+ge_lead_v4_r_ms,ge_lead_v4_r_ms,GE ECG Lead V4 R-wave duration,GE2014,ms,V4,lead_measurement
+ge_lead_v4_s_ms,ge_lead_v4_s_ms,GE ECG Lead V4 S-wave duration,GE2014,ms,V4,lead_measurement
+ge_lead_v4_p_uv,ge_lead_v4_p_uv,GE ECG Lead V4 P-wave amplitude,GE2014,uV,V4,lead_measurement
+ge_lead_v4_q_uv,ge_lead_v4_q_uv,GE ECG Lead V4 Q-wave amplitude,GE2014,uV,V4,lead_measurement
+ge_lead_v4_r_uv,ge_lead_v4_r_uv,GE ECG Lead V4 R-wave amplitude,GE2014,uV,V4,lead_measurement
+ge_lead_v4_s_uv,ge_lead_v4_s_uv,GE ECG Lead V4 S-wave amplitude,GE2014,uV,V4,lead_measurement
+ge_lead_v4_j_uv,ge_lead_v4_j_uv,GE ECG Lead V4 J-point amplitude,GE2014,uV,V4,lead_measurement
+ge_lead_v4_st_uv,ge_lead_v4_st_uv,GE ECG Lead V4 ST amplitude,GE2014,uV,V4,lead_measurement
+ge_lead_v4_t_uv,ge_lead_v4_t_uv,GE ECG Lead V4 T-wave amplitude,GE2014,uV,V4,lead_measurement
+ge_lead_v4_ste_uv,ge_lead_v4_ste_uv,GE ECG Lead V4 ST elevation,GE2014,uV,V4,lead_measurement
+ge_lead_v4_tprime_uv,ge_lead_v4_tprime_uv,GE ECG Lead V4 T-prime wave amplitude,GE2014,uV,V4,lead_measurement
+ge_lead_v5_q_ms,ge_lead_v5_q_ms,GE ECG Lead V5 Q-wave duration,GE2014,ms,V5,lead_measurement
+ge_lead_v5_r_ms,ge_lead_v5_r_ms,GE ECG Lead V5 R-wave duration,GE2014,ms,V5,lead_measurement
+ge_lead_v5_s_ms,ge_lead_v5_s_ms,GE ECG Lead V5 S-wave duration,GE2014,ms,V5,lead_measurement
+ge_lead_v5_p_uv,ge_lead_v5_p_uv,GE ECG Lead V5 P-wave amplitude,GE2014,uV,V5,lead_measurement
+ge_lead_v5_q_uv,ge_lead_v5_q_uv,GE ECG Lead V5 Q-wave amplitude,GE2014,uV,V5,lead_measurement
+ge_lead_v5_r_uv,ge_lead_v5_r_uv,GE ECG Lead V5 R-wave amplitude,GE2014,uV,V5,lead_measurement
+ge_lead_v5_s_uv,ge_lead_v5_s_uv,GE ECG Lead V5 S-wave amplitude,GE2014,uV,V5,lead_measurement
+ge_lead_v5_j_uv,ge_lead_v5_j_uv,GE ECG Lead V5 J-point amplitude,GE2014,uV,V5,lead_measurement
+ge_lead_v5_st_uv,ge_lead_v5_st_uv,GE ECG Lead V5 ST amplitude,GE2014,uV,V5,lead_measurement
+ge_lead_v5_t_uv,ge_lead_v5_t_uv,GE ECG Lead V5 T-wave amplitude,GE2014,uV,V5,lead_measurement
+ge_lead_v5_ste_uv,ge_lead_v5_ste_uv,GE ECG Lead V5 ST elevation,GE2014,uV,V5,lead_measurement
+ge_lead_v5_tprime_uv,ge_lead_v5_tprime_uv,GE ECG Lead V5 T-prime wave amplitude,GE2014,uV,V5,lead_measurement
+ge_lead_v6_q_ms,ge_lead_v6_q_ms,GE ECG Lead V6 Q-wave duration,GE2014,ms,V6,lead_measurement
+ge_lead_v6_r_ms,ge_lead_v6_r_ms,GE ECG Lead V6 R-wave duration,GE2014,ms,V6,lead_measurement
+ge_lead_v6_s_ms,ge_lead_v6_s_ms,GE ECG Lead V6 S-wave duration,GE2014,ms,V6,lead_measurement
+ge_lead_v6_p_uv,ge_lead_v6_p_uv,GE ECG Lead V6 P-wave amplitude,GE2014,uV,V6,lead_measurement
+ge_lead_v6_q_uv,ge_lead_v6_q_uv,GE ECG Lead V6 Q-wave amplitude,GE2014,uV,V6,lead_measurement
+ge_lead_v6_r_uv,ge_lead_v6_r_uv,GE ECG Lead V6 R-wave amplitude,GE2014,uV,V6,lead_measurement
+ge_lead_v6_s_uv,ge_lead_v6_s_uv,GE ECG Lead V6 S-wave amplitude,GE2014,uV,V6,lead_measurement
+ge_lead_v6_j_uv,ge_lead_v6_j_uv,GE ECG Lead V6 J-point amplitude,GE2014,uV,V6,lead_measurement
+ge_lead_v6_st_uv,ge_lead_v6_st_uv,GE ECG Lead V6 ST amplitude,GE2014,uV,V6,lead_measurement
+ge_lead_v6_t_uv,ge_lead_v6_t_uv,GE ECG Lead V6 T-wave amplitude,GE2014,uV,V6,lead_measurement
+ge_lead_v6_ste_uv,ge_lead_v6_ste_uv,GE ECG Lead V6 ST elevation,GE2014,uV,V6,lead_measurement
+ge_lead_v6_tprime_uv,ge_lead_v6_tprime_uv,GE ECG Lead V6 T-prime wave amplitude,GE2014,uV,V6,lead_measurement
