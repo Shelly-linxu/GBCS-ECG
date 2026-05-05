@@ -2,7 +2,7 @@
 
 ECG-derived age prediction and mortality risk analysis in the Guangzhou Biobank Cohort Study.
 
-This repository contains code and shareable analysis artifacts for the final ECG-age manuscript version, with residual ECG-age acceleration/REAA content removed from the manuscript figures and supplementary calculator.
+This repository contains code and shareable analysis artifacts for the final ECG-age manuscript version.
 
 ## Repository Contents
 
